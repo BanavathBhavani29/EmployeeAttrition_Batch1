@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 
 #Load the model and label encoder
+#Note: Ensure that the model, label encoder
 model = joblib.load("employeeattrition_model.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 feature_columns = joblib.load("feature_columns.pkl")
